@@ -1,0 +1,21 @@
+digraph Tree {
+node [shape=box, style="filled, rounded", color="black", fontname="helvetica"] ;
+edge [fontname="helvetica"] ;
+0 [label="cat__decade_2010 <= 0.5\nsquared_error = 1396657241000000.0\nsamples = 6\nvalue = 51947000.0", fillcolor="#f6d5bd"] ;
+1 [label="num__production budget <= 13500000.0\nsquared_error = 258554700000000.0\nsamples = 4\nvalue = 34910000.0", fillcolor="#fae7d9"] ;
+0 -> 1 [labeldistance=2.5, labelangle=45, headlabel="True"] ;
+2 [label="cat__decade_1990 <= 0.5\nsquared_error = 56851600000000.0\nsamples = 2\nvalue = 19740000.0", fillcolor="#fdf7f3"] ;
+1 -> 2 ;
+3 [label="squared_error = 0.0\nsamples = 1\nvalue = 12200000.0", fillcolor="#ffffff"] ;
+2 -> 3 ;
+4 [label="squared_error = 0.0\nsamples = 1\nvalue = 27280000.0", fillcolor="#fcefe6"] ;
+2 -> 4 ;
+5 [label="squared_error = 0.0\nsamples = 2\nvalue = 50080000.0", fillcolor="#f7d7c0"] ;
+1 -> 5 ;
+6 [label="cat__genre_Drama, Romance <= 0.5\nsquared_error = 143880025000000.0\nsamples = 2\nvalue = 120095000.0", fillcolor="#e88e4d"] ;
+0 -> 6 [labeldistance=2.5, labelangle=-45, headlabel="False"] ;
+7 [label="squared_error = 0.0\nsamples = 1\nvalue = 132090000.0", fillcolor="#e58139"] ;
+6 -> 7 ;
+8 [label="squared_error = 0.0\nsamples = 1\nvalue = 108100000.0", fillcolor="#ea9a61"] ;
+6 -> 8 ;
+}
